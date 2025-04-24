@@ -1,0 +1,35 @@
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+h2{
+  color: #788d71;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+}
+section p{
+  font-size: 20px;
+  text-align: justify;
+  line-height: 28px;
+}
+section ul{
+  font-size: 18px;
+  margin-left: 2rem;
+}
