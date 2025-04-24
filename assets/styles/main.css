@@ -1,6 +1,7 @@
 @import url(section-one.css);
 @import url(section-two.css);
 @import url(section-three.css);
+@import url(header.css);
 * {
   box-sizing: border-box;
   margin: 0;
@@ -23,7 +24,7 @@ html {
 
 header,
 footer {
-  background: #111;
+  background: #869680;
   color: white;
   padding: 20px;
   text-align: center;
