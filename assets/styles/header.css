@@ -4,18 +4,10 @@
   padding: 0;
 }
 
-body,
-html {
-  height: 100%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: white;
-  color: #111;
-}
 
 .container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -26,7 +18,7 @@ header .header-content{
   align-items: left;
   justify-content: space-between; 
   background-color: #869680 ;
-  color: white;
+  color: black;
   padding: 3px 20px;
 }
 header nav ul{
@@ -39,11 +31,11 @@ header nav ul{
 }
 header nav a{
   text-decoration: none;
-  color: white;
+  color: black;
 }
 header nav a:hover{
   text-decoration: underline;
-  color: black;
+  color: white;
 }
 span{
   font-size: 30px;
@@ -68,7 +60,7 @@ span{
   background-color: #869680;
   text-align: center;
   padding: 2rem 1rem;
-  color: white;
+  color: black;
   font-size: 20px;
 }
 .companies_logo{
@@ -172,9 +164,9 @@ span{
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   gap: 20px;
   padding: 20px;
-  text-align: center;
+  text-align: left;
 }
