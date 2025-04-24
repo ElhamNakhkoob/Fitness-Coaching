@@ -1,9 +1,7 @@
 .sectionTwo-container {
   background-color: #869680;
-  padding: 20px;
   text-align: center;
   width: 100%;
-  box-sizing: border-box;
 }
 
 .grid-container {
@@ -11,7 +9,10 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 20px;
-  width: 100%;
+}
+
+.title {
+  margin-top: 10px;
 }
 
 .grid-item {
