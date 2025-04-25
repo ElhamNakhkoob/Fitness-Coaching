@@ -15,7 +15,7 @@ header .header-content {
   align-items: left;
   justify-content: space-between;
   background-color: #869680;
-  color: black;
+  color: white;
   padding: 3px 20px;
 }
 header nav ul {
@@ -27,11 +27,11 @@ header nav ul {
 }
 header nav a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 header nav a:hover {
   text-decoration: underline;
-  color: white;
+  color: black;
 }
 span {
   font-size: 30px;
