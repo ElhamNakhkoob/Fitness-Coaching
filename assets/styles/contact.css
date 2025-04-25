@@ -1,0 +1,42 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 33px;
+  color: #788d71;
+}
+.label{
+  width: 4.3em;
+  height: 0.4rem;
+  margin-left: 0.8rem;
+  margin-right: 7.5rem;
+  display: inline-block;
+}
+.label_input{
+  display: inline-block;
+  width: 25em;
+  color: black;
+  padding: 10px 20px;
+  margin-left: 1.5rem;
+  align-items:normal;
+  margin: 3px 0;
+}
+
+
+
+
+
+/* .textarea{
+  vertical-align: 5px;
+  width: 20rem;
+}
+.btn{
+  width: fit-content;
+  margin: 7rem;
+  margin-top: 0.5rem;
+  margin-left: 0.1rem;
+  margin-bottom: 1rem;
+} */ 
