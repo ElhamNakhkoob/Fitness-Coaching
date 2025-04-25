@@ -1,72 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../assets/styles/contact.css">
-  <link rel="stylesheet" href="../assets/styles/main.css" />
-  <title>Fitness Coaching</title>
-</head>
-<body>
-  
-  <div class="container">
-    <header>
-      <div class="header-content">
-        <div class="logo">
-          <img src="../assets/images/lotus.png">
-          <span>Fitness Coaching</span>           
-      </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/styles/main.css" />
+    <link rel="stylesheet" href="../assets/styles/contact.css" />
+    <title>Fitness Coaching</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header-content">
+          <div class="logo">
+            <img src="../assets/images/lotus.png" />
+            <span>Fitness Coaching</span>
+          </div>
           <nav>
             <ul>
               <li><a href="../index.html">Home</a></li>
               <li><a href="about.html">About</a></li>
               <li><a href="plans.html">Plans</a></li>
               <li><a href="contact.html">Contact</a></li>
-              
             </ul>
           </nav>
-      </div>
-    </header> 
-  </div>
+        </div>
+      </header>
+    </div>
+    <div class="form-wrapper">
+      <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
 
-  <main>
-    <section>
-      <h2>Contact</h2>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
 
-        <form method="post">
-          <fieldset>
-            <div></div>
-            <label class="label" for="fname">First Name</label>
-            <input class="label_input" type="text" id="fname" name="fname">
-            </div>  
+          <div class="form-group">
+            <label for="subject">Subject:</label>
+            <select id="subject" name="subject">
+              <option value="">--Select--</option>
+              <option value="support">Support</option>
+              <option value="sales">Sales</option>
+              <option value="feedback">Feedback</option>
+            </select>
+          </div>
 
-            </br>
-            <label class="label" for="lname">Last Name</label>
-            <input class="label_input" type="text" id="lname" name="lname">
-            </br>
+          <div class="form-group">
+            <label>Preferred Contact Method:</label>
+            <div class="radio-group">
+              <label
+                ><input
+                  type="radio"
+                  name="contact_method"
+                  value="email"
+                  checked
+                />
+                Email</label
+              >
+              <label
+                ><input type="radio" name="contact_method" value="phone" />
+                Phone</label
+              >
+            </div>
+          </div>
 
-            </br>
-            <label class="label" for="email">E-mail</label>
-            <input class="label_input" type="email" id="email" name="email">
-            </br>
-
-            </br>
-            <label class="label" for="telephone">Telephon Nummer</label>
-            <input class="label_input" type="number" id="number" name="number">
-            </br>
-
-            </br>
-            <label class="label" for="Comment">Comment</label>
+          <div class="form-group">
+            <label for="message">Message:</label>
             <textarea id="message" name="message"></textarea>
-            </br>
+          </div>
 
-            <button type="send">Send</button>
-
-          </fieldset>
-
+          <button type="submit" class="submit-btn">Send Message</button>
         </form>
-    </section>
-  </main>
-</body>
-
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="contact-newsletter">
+        <div class="contact">
+          <h3>Contact Us:</h3>
+          <div>
+            <p>
+              <img
+                src="../assets/images/maps-and-flags.png"
+                alt="location icon"
+              />Avenue street. 34, 65789, Germany
+            </p>
+            <p>
+              <img src="../assets/images/mobile.png" alt="phone number" />+49
+              432 795456
+            </p>
+            <p>
+              <img
+                src="../assets/images/email1.png"
+                alt="email"
+              />fitness-coaching@web.de
+            </p>
+          </div>
+        </div>
+        <div class="newsletter">
+          <h3>News Letter</h3>
+          <ul>
+            <li>
+              <strong> New Opening:</strong> We're thrilled to announce the
+              opening of our branch in Munich,Germany!
+            </li>
+            <li><strong> New Class Launch:</strong> Mindful Yoga Flow</li>
+            <li>
+              <strong> Anniversary Special Event:</strong> Join our special
+              anniversary event with games, giveaways, and workouts led by top
+              trainers. Date: 25/05/2025
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
